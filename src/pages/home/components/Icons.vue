@@ -104,16 +104,17 @@ export default {
 
 .icons >>> .swiper-container {
   height: 0;
-  padding-bottom: 50%;
+  padding-bottom: 35%;
 }
 
 .icon {
+  margin-top: 0.1rem;
   position: relative;
   overflow: hidden;
   float: left;
   width: 25%;
   height: 0;
-  padding-bottom: 25%;
+  padding-bottom: 15%;
 
   .icon-img {
     position: absolute;
@@ -138,6 +139,7 @@ export default {
     right: 0;
     height: 0.44rem;
     line-height: 0.44rem;
+    font-size: 0.14rem;
     text-align: center;
     color: $darkTextColor;
     ellipsis();
